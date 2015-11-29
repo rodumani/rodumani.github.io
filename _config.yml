@@ -1,0 +1,11 @@
+title: Rodumani
+name: Rodumani
+email: changjej@gmail.com
+description: 개발블로그
+url: http://rodumani.kr/
+twitter_username: changjej
+github_username: rodumani
+
+markdown: kramdown
+autor: Changje Jeong
+highlighter: pygments
