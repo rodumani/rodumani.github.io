@@ -2,17 +2,17 @@
   "basics": {
     "name": "Changje Jeong",
     "label": "Software Engineer",
-    "picture": "http://2.gravatar.com/avatar/80df64e26134facd61695d39143cdf74",
+    "picture": "https://secure.gravatar.com/avatar/80df64e26134facd61695d39143cdf74?size=800",
     "email": "changjej@gmail.com",
     "phone": "+82-10-8842-6354",
-    "website": "http://rodumani.kr",
-    "summary": "Game Server & Web Services Developer",
+    "website": "",
+    "summary": "Proactive Software Engineer with 5+ years of experience in backend and web application development.\n Identifies and solves problems in user-oriented perspectives. Has experience in all stages of the project cycle from design to live operations.",
     "location": {
       "address": "",
-      "postalCode": "",
+      "postalCode": "06252",
       "city": "Seoul",
       "countryCode": "KR",
-      "region": "Seoul"
+      "region": ""
     },
     "profiles": [
       {
@@ -23,7 +23,12 @@
       {
         "network": "LinkedIn",
         "username": "Changje Jeong",
-        "url": "https://kr.linkedin.com/in/changje-jeong-21703b70"
+        "url": "https://linkedin.com/in/rodumani?lang=en"
+      },
+      {
+        "network": "Resume",
+        "username": "PDF",
+        "url": "https://rodumani.github.io/resume.pdf"
       }
     ]
   },
@@ -35,14 +40,9 @@
       "startDate": "2014-08-25",
       "summary": "DEVSISTERS is a game company which developed Cookie Run and Ovenbreak.",
       "highlights": [
-        "Cookie Run game server development & operation",
-        "Web-based game operation tool : Macaron",
-        "Regular log analytics platform : Pancake - Main developer",
-        "Large scale spark based log analytics platform : Breadcrumb (previously based on scalding)",
-        "Cookie Run 2 (in-development) game server - Go, Couchbase/MySQL, Docker",
-        "Web-based game operation tool for Cookie Run 2 : Gingerbread - Main developer",
-        "Translation tool for Cookie Run 2 : Tart - Main developer",
-        "Service monitoring and deployment system : Scone"
+	"Game Servers - Developed mobile game servers and operated services on AWS as DevOps",
+	"Admin Consoles - Designed and developed admin consoles with easy to learn and safe to use user interfaces",
+	"Back-office Tools - Proactively found out the way to improve the productivity of the team and built it"
       ]
     },
     {
@@ -56,24 +56,6 @@
         "Mobile analytics Fingra.ph's Web Reports and Logging SDK Development",
         "Photo-based private messanger Shot.ly iOS Applicaiton Development"
       ]
-    },
-    {
-      "company": "SPARCS",
-      "position": "Software Developer & Server Engineer",
-      "website": "http://www.sparcs.org",
-      "startDate": "2011-02-22",
-      "endDate": "2013-06-30",
-      "summary": "SPARCS is software development student group at KAIST. Main area is web development and sub areas are iOS & Android applications and linux system tools.",
-      "highlights": [
-        "Representative of wheel, the server management group",
-        "OTL : Online Lecture Timetable preview service. Developed course-dictionary feature.",
-        "Taxitogether : Taxi sharing app. Developed iOS application",
-        "IDR : Industrial Design department's reservation portal",
-        "ARARI : BBS Service ara's new version project",
-        "Trihack : Hackathon Homepage",
-        "Nugu Mobile : SPARCS addressbook for iOS",
-        "ARA Notifier : Android & iOS app which notifies new articles of ARA BBS"
-      ]
     }
   ],
   "volunteer": [],
@@ -81,120 +63,85 @@
     {
       "institution": "KAIST",
       "area": "Computer Science",
-      "studyType": "Bachelor",
+      "studyType": "B.S.",
       "startDate": "2011-03-02",
-      "courses": [
-        "CS101 - Introduction to Programming",
-        "CS109 - Programming Practice",
-        "CS204 - Discrete Mathematics",
-        "CS206 - Data Structure",
-        "CS211 - Digital Systems",
-        "CS220 - Programming Principles",
-        "CS230 - System Programming",
-        "CS270 - Intelligent robot design and programming",
-        "CS300 - Introduction to Algorithms",
-        "CS310 - Embedded Computer Systems",
-        "CS311 - Computer Organization",
-        "CS320 - Programming Language",
-        "CS322 - Formal Languages and Automata",
-        "CS341 - Introduction to Computer Networks"
-      ]
+      "endDate": "2018-06-18",
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "K Cube Ventures Fellowship Program Grand Prize",
-      "date": "2012-08-18",
-      "awarder": "K Cube Ventures",
-      "summary": ""
-    }
-  ],
+  "awards": [],
   "publications": [
     {
-      "name": "Presentation - Daily Report System on AWS",
+      "name": "Presentation - Making Daily Report on AWS",
       "publisher": "",
       "releaseDate": "2015-04-21",
       "website": "http://www.slideshare.net/changjej/aws-daily-report",
-      "summary": "Presentation session on AWS Summit Seoul 2015 about daily report system using AWS"
+      "summary": "Introduce DEVSISTERS’s data processing architecture using logstash, Amazon S3 and Amazon EMR"
+    },
+    {
+      "name": "Presentation - Modern Web Application",
+      "publisher": "",
+      "releaseDate": "2016-11-17",
+      "website": "https://www.slideshare.net/changjej/2016-devsisters-kaist-techtalk",
+      "summary": "Introduce modern web application developments (ES6+,React,SPA,SSR)"
     }
   ],
   "skills": [
     {
-      "name": "Backend Development",
-      "level": "Master",
+      "name": "Programming Languages",
+      "keywords": [
+				"Java",	
+				"JavaScript/TypeScript",
+				"Python",
+				"Go",
+				"Objective-C"
+      ]
+    },
+    {
+      "name": "Backend Frameworks",
       "keywords": [
         "Spring",
-        "Node.js",
+        "Node/Express",
         "Django",
-        "Go",
         "Flask",
         "Bottle"
       ]
     },
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Web Frontends",
       "keywords": [
-        "Javascript",
-        "React + Flux, Redux",
+        "React/Redux",
+				"Vue/Vuex",
         "jQuery",
-        "HTML5",
-        "CSS3, SASS/SCSS"
+        "HTML",
+        "CSS/SASS/SCSS"
       ]
     },
     {
       "name": "Database",
-      "level": "Master",
       "keywords": [
         "MySQL",
         "Couchbase",
-        "MongoDB"
+        "MongoDB",
+				"Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+				"AWS",
+				"Docker",
+				"Terraform",
+				"Packer",
+				"Chef",
+				"Jenkins",
+				"CircleCI"
       ]
     },
     {
       "name": "AWS - Amazon Web Services",
-      "level": "Master",
       "keywords": [
-        "Solutions Architect - Associate Level",
-        "Game server operation on EC2 with AutoScaling, VPC, RDS and ElastiCache",
-        "Log Analytics on EC2, EMR, S3"
-      ]
-    },
-    {
-      "name": "Proficient",
-      "level": "Master",
-      "keywords": [
-        "Python",
-        "Javascript",
-        "Java",
-        "Go"
-      ]
-    },
-    {
-      "name": "Familiar with",
-      "level": "Intermediate",
-      "keywords": [
-          "Objective-C",
-          "C/C++",
-          "Scala"
-      ]
-    },
-    {
-      "name": "Mobile",
-      "level": "Intermediate",
-      "keywords": [
-        "iOS",
-        "Android"
-      ]
-    },
-    {
-      "name": "Tools",
-      "level": "",
-      "keywords": [
-        "Docker",
-        "Git & Github",
-        "Vim",
-        "OS X - Intermediate"
+        "Solutions Architect - Associate Level"
       ]
     }
   ],
@@ -208,19 +155,6 @@
       "fluency": "Intermediate"
     }
   ],
-  "interests": [
-    {
-      "name": "Guitar",
-      "keywords": [
-        "Acoustic",
-        "Electronic",
-        "Bass"
-      ]
-    },
-    {
-      "name": "Photography",
-      "keywords": []
-    }
-  ],
+  "interests": [],
   "references": []
 }
